@@ -1,0 +1,97 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "311aa9bf-fac3-4310-8357-d5fcfdf16b52": {
+        "id": "311aa9bf-fac3-4310-8357-d5fcfdf16b52",
+        "parent": null,
+        "name": "my3trdprojetc.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "my3trdprojetc.py",
+        "cursor": {
+          "lineNumber": 4,
+          "column": 1
+        },
+        "config": {
+          "runtime": "python3.8",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "my3trdprojetc"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigtransactionapitransacget",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1603503383297
+      }
+    },
+    "openFiles": [
+      "311aa9bf-fac3-4310-8357-d5fcfdf16b52"
+    ],
+    "currentFileId": "311aa9bf-fac3-4310-8357-d5fcfdf16b52",
+    "resources": {
+      "apigtransactionapitransacget": {
+        "name": "apigtransactionapitransacget",
+        "type": "API_GATEWAY",
+        "config": {
+          "apiType": 1,
+          "apiMode": 0,
+          "apiName": "transaction api",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "transac",
+          "resourcePath": "/transac",
+          "restMethod": "GET",
+          "proxyIntegration": true,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "ppr",
+          "mode": 0
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.4.1",
+    "projectName": "my3trdprojetc",
+    "projectDescription": "my3trdprojetc",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1603503611920
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "my3trdprojetc",
+      "url": "https://github.com/fgaoudi/my3trdprojetc"
+    }
+  }
+}
